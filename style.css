@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #9EFFB2;
+    font-family: 'Poppins', sans-serif; 
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #458CFF
+}
+
+
+img {
+    max-width: 100%;
+}
+h1, h2{
+    margin-bottom: 15px;
+} 
+
+.con {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background: #77BF85;
+    color: white;
+    height: 60px;
+}
+
+.navbar .con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+.navbar ul {
+    display: flex;
+    margin: 20px;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+header {
+    background-color: #4F8059;
+    color: white;
+    min-height: 400px;
+
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-right: 50px;
+}
+
+header .con {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+
+.boxes .con {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+    
+
+}
+.boxes4 .con {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.boxes5 .con {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.boxes7 .con {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.boxes9 .con {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.box {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.box1 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.box2 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+.box3 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.box4 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+.box5 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+.box6 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+.pro1  {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: px 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box7 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+.box8 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+.box9 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.box10 {
+    flex: 1;
+    background: #28402C;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+
+
+@media(max-width: 768px;) {
+header .con {
+    flex-direction: column;
+    padding-top: center;
+    text-align: center;
+
+
+}
+}
+.boxes .con {
+    display: block;
+    text-align: center  ;
+}
