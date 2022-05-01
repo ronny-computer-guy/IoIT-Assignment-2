@@ -359,7 +359,7 @@ Sources:
         <div class="box2">
             <p>
                 <h2 id="itech">Cloud</h2>
-                <img src="cloud.jpg" alt="Cloud" height="500px">   
+                <img src="cloud.jpg" alt='Cloud'>   
             
                 Cloud services are web based platforms, software and infrastructure that are hosted by third party providers such as Azure cloud or AWS, and made available to be used throughout the internet by individuals, businesses and organisations.
 Cloud computing enables businesses and individuals to consume resources online, such as databases, storage, memory, data transfer, virtual machines and pay-as-you-go.
@@ -517,15 +517,13 @@ Sources:
         <div class="box7">
             <h2>Overview</h2>
             <p>
-
+Our project is a mobile application that is essentially a virtual wallet designed to be a unified hub for all forms of virtual cards, QR codes and virtual tickets. This idea can be innovative because there are many different types of services that can store credit cards (eg: apple pay and google play), and some less popular virtual cards and/or QR Codes used in other non wallet apps may use a different application or not even be available on a virtual wallet service, meaning a user might need multiple applications and multiple accounts to use all their virtual cards on their phone. This application will be designed so that all these cards and scannable codes and items can be stored in one place, as a unified “eWallet”, making a card holder’s life easier and more efficient when dealing with scannable items on their phone.
             </p>
         </div>
         <div class="box7">
             <h2>Motivation</h2>
             <p>This idea has come from personal experiences, with statistics and global trends making this idea more viable. When I make cashless payments, the majority of those transactions are made through Apple pay which I find to be much more convenient than taking out my physical wallet. The only time I need to regularly take out my wallet is when taking public transport to touch on and off my miki, which for me personally is a mild inconvenience when we already have these technologies in place in our phones through near field communication (NFC). Although a miki can be stored on mobile through google pay, the initial inconvenience still stands, having multiple wallet/card applications can be less efficient and convenient than a simple physical wallet! Especially when we are moving into a more digitised society
-                The solution is simple, people can have all their physical cards stored in one wallet, so all that is needed is one application to store everything, not multiple applications. This idea of convenience and practicality is the key motivation for my project. Data proves that this type of technology is becoming increasingly popular, with virtual wallets becoming increasingly more adopted. With 900 million transactions at the start of the pandemic increasing to almost 1.5 billion in 2021, a 25% increase, which is set to go above 33% in the coming years. The growth has been so large in fact that 45% of all eCommerce transactions were through mobile in 2021, which is twice as large as the payments done via debit cards and three times of debit card payments
-
-
+The solution is simple, people can have all their physical cards stored in one wallet, so all that is needed is one application to store everything, not multiple applications. This idea of convenience and practicality is the key motivation for my project. Data proves that this type of technology is becoming increasingly popular, with virtual wallets becoming increasingly more adopted. With 900 million transactions at the start of the pandemic increasing to almost 1.5 billion in 2021, a 25% increase, which is set to go above 33% in the coming years. The growth has been so large in fact that 45% of all eCommerce transactions were through mobile in 2021, which is twice as large as the payments done via debit cards and three times of debit card payments.
             </p>
 
         </div>
@@ -535,7 +533,32 @@ Sources:
     <div class="con">
         <div class="box8">
             <h2>Description</h2>
-            <p></p>
+            <p>The application would have a simple and easy to navigate UI so that a user can access all their items quickly. There will be a variety of features and connections to allow for the maximum amount of cards and scanables as possible, while also making this experience to add them in the app as simple as efficient as possible for the user.
+The types of cards, scanables and their connections to the application can be separated into classifications that I have designated and can be either “locally stored” and “redirected”.
+Locally stored items means that information is stored directly on the application, which is the most desired form of storage for efficient use, in comparison to redirected items. Redirected items is the less ideal method to access items, this is where the app cannot support the type of item, and must redirect to another application which does.
+Internally Supported NFC (locally stored)
+When debit card is located in the app and can be used without exiting the application, and can send a signal through the phone's NFC for a successful transaction, this type of card can be called an “internally supported NFC”, in most cases large institution/banks eventually will officially support the card being used in the app as they already do with other major wallets like apple wallet and google pay. This type of classification not only applies to bank cards, but also one time codes and other scannable codes (eg: loyalty reward card and limited time offers) that may be officially supported by the institution to work in the virtual wallet.
+User Inserted Scannable Cards (locally stored)
+If a scannable item isn't supported by the institution, then the user can take a photo or screenshot of QR code or other scannable item that does not send a signal and then save it in the wallet, making it so that the code can still be scanned in the app without redirecting to another app or even referring to a physical voucher/docket that may have been given to them. This won't be able to work with cards that require NFC to work such as bank cards. However, there is a workaround which will be mentioned next.
+Redirectable Cards (redirected)
+If any type of card for whatever reason cannot be saved on the app, there is the option to redirect the user to the source app that the card is on, this can be done through granting permissions to the application to have access to redirecting the user to the specific card stored on that app.
+App Redirection (redirected)
+If the redirection of cards cannot work, the user can manually set a shortcut to open the app where the desired cards are stored, it may not be as efficient as the other methods, but if a user frequently uses the application this may be used in some cases instead of directly
+Direct Scan (experimental / questionable legality)
+With Apple, Google and Samsung announcing their phones can be used as terminals for businesses to accept payments through their NFC chips, our application has the potential to use the NFC chips in modern smartphones to read the signal provided by a card in close proximity to the phone and duplicate the signal to be stored on the application, to be later used through the application. This should work with all cards that use radio frequency identification (RFID) or have an NFC chip if functional. This should be ideal for cards that are used by hotels or businesses and education institutions that use these cards only in physical form. Despite the intent of this functionality is ultimately for convenience, this can easily be abused by many malicious individuals in many malicious use cases. From credit card skimming and fraudulent transactions as a result, the universality of this function can be easily used for criminal activity and may even increase unauthorised transactions and crimes as a whole.
+Ultimately this function would require a lot of testing and legal consultation so that it can be effective while also minimising the amount of criminal activity.
+From a business perspective this type of function is currently not available on the market, and being able to use the function effectively may result in the application receiving widespread adoption as there is no other program that does this.
+Despite this mobile function being an innovation, personally, if there is still a big risk of this function being used in criminal activity, the idea may be scrapped in its entirety to prevent legal repercussions.
+All of that was mentioned prior were ways to store/access your cards in the application, which are the primary functions of the app.
+Some other QOL functions:
+Managing and sorting cards through folders
+Removing cards
+Updating cards if they expire or renew
+Track previous payments
+Customizable UI
+Data encryption
+Add to application function supported by businesses own applications for (like “add to apple pay” button)
+</p>
         </div>
 
     </div>
@@ -544,19 +567,22 @@ Sources:
 <section class="boxes9">
     <div class="con">
         <div class="box9">
-            <h2>Tools Needed</h2>
-            <p></p>
+            <h2>Tools and Technologies</h2>
+            <p>To develop the application, a mobile internal development environment (IDE) will be required to develop the fundamentals of the application, something like Visual studio would be appropriate (mostly because Iam familiar with it), but many IDEs can be suitable for this application for a variety of programming languages like java and python.
+If the application is being developed through Visual studio, windows workstations would be the computers used to develop the app. Local backups will be made regularly on the computer and also on a server, with a cloud storage service used as offsite backups.
+While this application is going to be primarily used with modern smartphones with NFC chips, the application should still work with phones without NFC chips (with limited functionality). So it's important when doing internal testing that a wide range of phones with different operating systems and hardware specifications (especially older phones without NFC chips) are tested for errors and bugs.
+A Lot of the data stored on the applications will need to be encrypted so that people trying to gain unauthorised access to the data cannot if they attempt to read the data
+Also there will be development builds sent to testers regularly for feedback on UX/UI and if any bugs and errors are present in that build.
+</p>
         </div>
         <div class="box9">
             <h2>Skills Required</h2>
-            <ul>
-                <li>- </li>
-                <li>- </li>
-                <li>- </li>
-                <li>- </li>
-                <li>- </li>
-            </ul>
-            <p></p>
+            
+            <p>There are many skills required to develop this application some of which are quite specialised.
+When developing the application, skills in backend and frontend development is important for fundamentals of mobile applications. Knowledge in a viable programming language for this kind of application is needed to build an application that fulfils all of its requirements.
+Knowledge in how NFC chips and how to utilise them (especially in mobile phones) is key to be able to make transactions and to potentially develop the “direct scan” feature for this application.
+The knowledge on how to store these cards locally on the device so that some features won't require an internet connection (such as NFC data and photos), and the ability to encrypt data so that if the device is stolen people can't access the sensitive data despite having access to the phone.
+</p>
         </div>
     </div>
 </section>
@@ -564,7 +590,8 @@ Sources:
     <div class="con">
         <div class="box10">
             <h2>Outcome</h2>
-            <p></p>
+            <p>If the project is successful and gains widespread usage, many more businesses will take the application into consideration when developing cards and scannable items so that they can be natively supported on the app. Users will be able to use all their cards and scannable items in one place, solving the issue of the inconvenience of having multiple virtual wallets, making their lives more efficient and potentially making physical wallets less of a need in society. If the development is successful and widely adopted, hopefully most of the cards and scannable items can be natively supported so that app redirection function is less of a need so that all your items can be stored in the one app, which is ultimately the vision of the project.
+</p>
         </div>
 
     </div>
